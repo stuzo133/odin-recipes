@@ -1,21 +1,69 @@
 /* styles.css */
 
 div {
-    color: white;
-    background-color: black;
-  }
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: blueviolet;
+}
+
+
+
+#boxes {
+  border: 2px solid red;
+  width: 400px;
+  
+  padding: 20px;
+}
   
   p {
-    color: red;
+    color: rgb(18, 156, 219);
+    
   }
 
   .head {
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
+    background-color: red;
+    font-style: italic;
 
   }
   
   .cakehead {
     font-size: 100px;
+    
+    background-color: blue;
+    color: red;
+    font-style: italic;
     text-align: center;
+    border-style: double;
+    border-color: green;
+    width: 1000px;
+    justify-items: center;
+    border-left: 100px;
+    
+  }
+
+  .box {
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    background-color: blue;
+  }
+
+  .headerContainer { 
+    display: 'flex'; 
+    justify-content: 'center';
+ }
+
+ .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+  .introduction {
+    background-color: grey;
   }
